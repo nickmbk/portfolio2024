@@ -6,14 +6,16 @@ const Navbar = () => {
         <>
             <nav className="nav-wrapper">
                 <div className="nav-content">
-                    <img src="https://picsum.photos/100" alt="nick mbk logo" className="logo" />
+                    <div className="logo">
+                        nick misselbrook
+                    </div>
 
                     <ul>
                         <li>
                             <a className="menu-item">Home</a>
                         </li>
                         <li>
-                            <a className="menu-item">Skillse</a>
+                            <a className="menu-item">Skills</a>
                         </li>
                         <li>
                             <a className="menu-item">Work Experience</a>
