@@ -62,3 +62,26 @@
     transform: translateX(0);
     opacity: 1;
 }
+
+.contact-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    outline: 1.5px solid var(--secondary-color); 
+    transition: all 0.3s ease;
+}
