@@ -19,9 +19,13 @@
 .logo {
     width: fit-content;
     height: auto;
-    color: var(--primary-font-color);
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 500;
     font-size: 2rem;
+}
+
+.logo span {
+    color: var(--secondary-font-color);
 }
 
 .nav-content ul {
