@@ -40,7 +40,7 @@ const Navbar = () => {
 
                     <button class="menu-btn" onClick={toggleMenu}>
                         <span class={"material-symbols-outlined"} style={{ fontSize: "1.8rem" }}>
-                            {openMenu ? "close" : "menu"};
+                            {openMenu ? "close" : "menu"}
                         </span>
                     </button>
                 </div>
