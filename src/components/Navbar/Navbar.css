@@ -1,5 +1,5 @@
 .nav-wrapper {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
@@ -17,7 +17,7 @@
 }
 
 .logo {
-    width: auto;
+    width: fit-content;
     height: auto;
     color: var(--primary-font-color);
     font-weight: 500;
@@ -30,10 +30,17 @@
     align-items: center;
     gap: 0.5rem;
     list-style: none;
+    padding-left: 5px;
 }
 
-.nav-content li {
+.nav-content li, .nav-content .contact-btn {
     margin: 0 1.5rem;
+}
+
+@media(max-width: 992px) {
+    .nav-content li, .nav-content .contact-btn {
+        margin: 0 0.5rem;
+    }
 }
 
 .menu-item {
@@ -70,8 +77,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color);
-    background: var(--secondary-color);
+    color: #FFFFFF;
+    background: var(--primary-color);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
@@ -82,7 +89,7 @@
 
 .contact-btn:hover {
     color: var(--secondary-color);
-    background: var(--primary-color);
+    background: #FFFFFF;
     outline: 1.5px solid var(--secondary-color); 
     transition: all 0.3s ease;
 }

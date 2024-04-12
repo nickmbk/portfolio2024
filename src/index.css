@@ -3,8 +3,9 @@
 
 :root {
   --primary-color: #2175D0;
-  --secondary-color: #F8F9FB;
+  --secondary-color: #010e29;
   --accent-color: #F2C94C;
+  --secondary-color-faded: #010e2922;
   --primary-font-color: #FFFFFF;
   --seconracy-font-color: #000000;
   --title-font: "Lexend", sans-serif;
@@ -22,6 +23,6 @@ body {
   background-color: var(--secondary-color);
 }
 
-.logo, h1, h2, h3, h4, h5, h6 {
+.logo, h1, h2, h3, h4, h5, h6, .contact-btn {
   font-family: var(--title-font);
 }
