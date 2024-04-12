@@ -2,13 +2,13 @@
     width: 100vw;
     height: 100vh;
     display: none;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color-faded);
     position: fixed;
     left: 0;
     top: 0;
     z-index: 999;
     opacity: 0;
-    box-shadow: 0px 29px 88px var(--primary-color);
+    box-shadow: 0px 29px 88px var(--secondary-color-faded);
     transition: all 0.3s ease;
     transform: translateX(-100vw);
 }
@@ -37,3 +37,8 @@
     margin-left: -2rem;
 }
 
+@media(max-width: 769px) {
+    .mobile-menu {
+        display: block;
+    }
+}

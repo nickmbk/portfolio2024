@@ -1,5 +1,5 @@
 .nav-wrapper {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
@@ -77,8 +77,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color);
-    background: var(--secondary-color);
+    color: #FFFFFF;
+    background: var(--primary-color);
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
@@ -89,7 +89,7 @@
 
 .contact-btn:hover {
     color: var(--secondary-color);
-    background: var(--primary-color);
+    background: #FFFFFF;
     outline: 1.5px solid var(--secondary-color); 
     transition: all 0.3s ease;
 }
