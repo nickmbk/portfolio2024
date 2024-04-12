@@ -6,10 +6,11 @@
   --secondary-color: #010e29;
   --accent-color: #F2C94C;
   --secondary-color-faded: #010e2922;
-  --primary-font-color: #FFFFFF;
-  --seconracy-font-color: #000000;
+  --primary-font-color: #ffffff;
+  --secondary-font-color: #FFFFFF;
   --title-font: "Lexend", sans-serif;
   --body-font: "Poppins", sans-serif;
+  --body-font-color: #000000;
 }
 
 *, *::before, *::after {

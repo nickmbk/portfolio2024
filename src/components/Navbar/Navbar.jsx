@@ -16,7 +16,7 @@ const Navbar = () => {
             <nav className="nav-wrapper">
                 <div className="nav-content">
                     <div className="logo">
-                        nick misselbrook
+                        <span>nick m</span>issel<span>b</span>roo<span>k</span>
                     </div>
 
                     <ul>
