@@ -1,0 +1,16 @@
+.skills-card {
+    border-radius: 0.65rem;
+    border: 1.5px solid var(--primary-color);
+    padding: 2.5rem;
+    text-align: center;
+    background: var(--secondary-color-faded);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills-card:hover,
+.skills-card.active {
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
