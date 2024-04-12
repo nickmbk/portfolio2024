@@ -16,7 +16,7 @@ const Skills = () => {
                             iconUrl={item.icon}
                             title={item.title}
                         />
-                    ))};
+                    ))}
                 </div>
 
                 <div className="skills-info">
