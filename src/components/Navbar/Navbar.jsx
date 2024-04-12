@@ -21,20 +21,20 @@ const Navbar = () => {
 
                     <ul>
                         <li>
-                            <a className="menu-item">Home</a>
+                            <a className="menu-item">home</a>
                         </li>
                         <li>
-                            <a className="menu-item">Skills</a>
+                            <a className="menu-item">skills</a>
                         </li>
                         <li>
-                            <a className="menu-item">Work Experience</a>
+                            <a className="menu-item">work experience</a>
                         </li>
                         <li>
-                            <a className="menu-item">Contact Me</a>
+                            <a className="menu-item">contact me</a>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>
-                            Hire Me
+                            hire me
                         </button>
                     </ul>
 
