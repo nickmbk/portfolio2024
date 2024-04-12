@@ -14,9 +14,9 @@ const Hero = () => {
             <div className="hero-img">
                 <div>
                     <div className="tech-icon">
-                        <img src="https://picsum.photos/400" alt="" />
+                        <img src="https://picsum.photos/200" alt="" />
                     </div>
-                    <img src="https://picsum.photos/200" alt="" />
+                    <img src="https://picsum.photos/400" alt="" />
                 </div>
 
                 <div>
