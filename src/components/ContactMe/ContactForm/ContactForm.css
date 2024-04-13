@@ -11,7 +11,6 @@ form {
 .name-container {
     display: flex;
     align-items: center;
-    grid-gap: 1.5rem;
 }
 
 form input,
@@ -41,4 +40,18 @@ form button {
 form button:hover {
     color: #a892fe;
     background: transparent;
+}
+
+@media(max-width: 450px) {
+    form input,
+    form textarea {
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+    }
 }
