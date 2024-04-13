@@ -3,7 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <>Footer</>
+        <div className="footer">
+            © 2024 Nick Misselbrook
+        </div>
     );
 }
 
