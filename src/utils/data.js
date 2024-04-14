@@ -16,6 +16,8 @@ export const SKILLS = [
         title: "Backend",
         icon: "./assets/images/icons/backend/backend.svg",
         skills: [
+            { skill: "PHP", iconUrl: "./assets/images/icons/backend/php.svg" },
+            { skill: "MariaDB", iconUrl: "./assets/images/icons/backend/mariadb.svg" },
             { skill: "Node JS", iconUrl: "./assets/images/icons/backend/nodejs.svg" },
         ],
     },
