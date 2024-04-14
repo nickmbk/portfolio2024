@@ -1,5 +1,5 @@
 .skills-info-card {
-    min-height: 23rem;
+    min-height: 38rem;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
     background: rgba(22,17,47,0.398);
@@ -50,7 +50,7 @@
 }
 
 .skills-icon img {
-    width: 3rem;
+    width: 3.5rem;
     height: auto;
     object-fit: contain;
 }
