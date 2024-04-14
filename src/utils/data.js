@@ -4,7 +4,7 @@ export const SKILLS = [
         icon: "./assets/images/icons/frontend/frontend.svg",
         skills: [
             { skill: "HTML", iconUrl: "./assets/images/icons/frontend/html5.svg" },
-            { skill: "CSS", iconUrl: "./assets/images/icons/frontend/css.svg" },
+            { skill: "CSS", iconUrl: "./assets/images/icons/frontend/css3.svg" },
             { skill: "SASS", iconUrl: "./assets/images/icons/frontend/sass.svg" },
             { skill: "Bootstrap", iconUrl: "./assets/images/icons/frontend/bootstrap.svg" },
             { skill: "JavaScript", iconUrl: "./assets/images/icons/frontend/javascript.svg" },
