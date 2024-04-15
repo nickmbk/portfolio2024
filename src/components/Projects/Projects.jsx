@@ -39,7 +39,7 @@ const sliderRef = useRef();
 
                 <Slider ref={sliderRef} {...settings}>
                     {PROJECTS.map((item) => (
-                        <ExperienceCard key={item.title} details={item} />
+                        <ProjectCard key={item.title} details={item} />
                     ))}
                 </Slider>
             </div>

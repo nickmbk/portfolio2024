@@ -1,5 +1,5 @@
 .skills-card {
-    border-radius: 0.65rem;
+    border-radius: var(--border-radius);
     border: 1.5px solid var(--primary-color);
     padding: 2.5rem;
     text-align: center;
@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     background: #2a2252;
-    border-radius: 0.65rem;
+    border-radius: var(--border-radius);
     border: 1.5px solid #6852ba;
     position: absolute;
     top: -1rem;

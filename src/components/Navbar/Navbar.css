@@ -61,7 +61,7 @@
     width: 2rem;
     height: 0.2rem;
     background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
-    border-radius: 0.5rem;
+    border-radius: var(--border-radius);
     position: absolute;
     bottom: -0.6rem;
     opacity: 0;
@@ -86,7 +86,7 @@
     padding: 0.6rem 2rem;
     border: none;
     outline: 1.5px solid transparent;
-    border-radius: 0.2rem;
+    border-radius: var(--border-radius);
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -106,7 +106,7 @@
     align-items: center;
     justify-content: center;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: var(--border-radius);
     color: var(--primary-color);
     background: var(--secondary-color);
     line-height: 0;
