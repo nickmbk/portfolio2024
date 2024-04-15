@@ -1,7 +1,7 @@
 import React from "react";
-import './ExperienceCard.css';
+import './ProjectCard.css';
 
-const ExperienceCard = ({ details }) => {
+const ProjectCard = ({ details }) => {
     return (
         <div className="project-card">
             <div className="project-title">
@@ -55,4 +55,4 @@ const ExperienceCard = ({ details }) => {
     );
 };
 
-export default ExperienceCard;
+export default ProjectCard;

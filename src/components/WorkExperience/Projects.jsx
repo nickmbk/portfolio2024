@@ -1,10 +1,10 @@
 import  { useRef } from 'react';
-import './WorkExperience.css';
+import './Projects.css';
 import { PROJECTS } from '../../utils/data';
-import ExperienceCard from './ExperienceCard/ExperienceCard';
+import ProjectCard from './ProjectCard/ProjectCard';
 import Slider from 'react-slick';
 
-const WorkExperience = () => {
+const Projects = () => {
 const sliderRef = useRef();
 
     const settings = {
@@ -47,4 +47,4 @@ const sliderRef = useRef();
     )
 }
 
-export default WorkExperience;
+export default Projects;
