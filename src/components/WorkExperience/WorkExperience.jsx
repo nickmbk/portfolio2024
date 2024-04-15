@@ -1,6 +1,6 @@
 import  { useRef } from 'react';
 import './WorkExperience.css';
-import { WORK_EXPERIENCE } from '../../utils/data';
+import { PROJECTS } from '../../utils/data';
 import ExperienceCard from './ExperienceCard/ExperienceCard';
 import Slider from 'react-slick';
 
@@ -11,18 +11,9 @@ const sliderRef = useRef();
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        responsive: [
-            {
-                breakpoint: 769,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
     };
 
     const slideRight = () => {
@@ -34,10 +25,10 @@ const sliderRef = useRef();
     }
 
     return (
-        <section className="experience-container">
-            <h5>Work Experience</h5>
+        <section className="projects-container">
+            <h2>Projects</h2>
 
-            <div className="experience-content">
+            <div className="projects-content">
                 <div className="arrow-right" onClick={slideRight}>
                     <span class="material-symbols-outlined">chevron_right</span>
                 </div>
@@ -47,7 +38,7 @@ const sliderRef = useRef();
                 </div>
 
                 <Slider ref={sliderRef} {...settings}>
-                    {WORK_EXPERIENCE.map((item) => (
+                    {PROJECTS.map((item) => (
                         <ExperienceCard key={item.title} details={item} />
                     ))}
                 </Slider>

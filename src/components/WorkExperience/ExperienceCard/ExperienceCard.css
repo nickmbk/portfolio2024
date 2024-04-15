@@ -1,4 +1,4 @@
-.work-experience-card {
+.project-card {
     background: #130f2a;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
@@ -6,51 +6,133 @@
     margin: 0 1rem;
 }
 
-.work-experience-card h6 {
-    font-size: 1.05rem;
-    font-weight: 500;
-    margin-bottom: 0.7rem;
+.project-title {
+
 }
 
-.work-duration {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 400;
-    background: rgba(103, 81, 185, 0.5);
-    border-radius: 0.3rem;
-    padding: 0.4rem 0.6rem;
-    margin-bottom: 1.3rem;
+.project-information {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
-.work-experience-card ul li {
+.role-stack {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.role-stack ul {
+    padding: 2rem 0;;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: none;
     list-style: none;
-    font-size: 0.8rem;
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-    position: relative;
 }
 
-.work-experience-card ul li::after {
-    content: " ";
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: #6751b9;
-    border-radius: 0.5rem;
-    position: absolute;
-    left: -1.3rem;
-    top: 0.35rem;
+.role {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
 }
+
+li.technology {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.5rem;
+    border: 1.5px solid #3d3072;
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    width: fit-content;
+    height: 3rem;
+    gap: 0.5rem;
+    padding: 0.25rem;
+}
+
+li.technology .technology-icon {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.1rem 0 0.1rem 0.5rem;
+    }
+
+.technology-icon img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+li.technology p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 0.5rem;
+    width: fit-content;
+}
+
+.project-links {
+    margin-top: auto;
+}
+
+.links-container {
+    padding: 1rem 0 0;
+}
+
+.project-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.project-link h5 {
+    width: 135px;
+}
+
+.project-screenshot {
+    flex-basis: 50%;
+}
+
+.project-screenshot img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+@media(max-width: 992px) {
+    .project-information {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
 
 @media(max-width: 768px) {
-    .work-experience-card {
+    .project-card {
         margin: 0;
     }
 
-    .work-experience-card h6 {
-        font-size: 0.95rem;
-    }
-
-    .work-experience-card ul li {
+    .project-card ul li {
         font-size: 0.75rem;
     }
+
+    .technology p {
+        font-size: 0.75rem;
+    }
+
+
 }
+
