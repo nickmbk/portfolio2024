@@ -35,7 +35,7 @@
     border-radius: 0.5rem;
     border: 1.5px solid #3d3072;
     background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    width: 9rem;
+    width: 10rem;
     aspect-ratio: 1/1;
     gap: 0.5rem;
     padding: 1rem;
@@ -50,7 +50,7 @@
 }
 
 .skills-icon img {
-    width: 3.5rem;
+    width: 3rem;
     height: auto;
     object-fit: contain;
 }
@@ -86,12 +86,16 @@
     }
 
     .skill-info {
-        width: 5rem;
+        width: 6rem;
     }
 
     .skill-info .skills-icon {
         width: 2rem;
         height: 2rem;
+    }
+
+    .skills-icon img {
+        width: 2rem;
     }
 
     .skill-info p {
@@ -107,7 +111,7 @@
     }
 
     .skill-info {
-        width: 7rem;
+        width: 8rem;
     }
 
     .skill-info .skills-icon {

@@ -86,7 +86,7 @@
     }
     
     .skills-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 3rem;
     }
     
