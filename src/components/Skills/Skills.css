@@ -61,16 +61,6 @@
 }
 
 @media(max-width:768px) {
-    .skills-content {
-        flex-direction: column-reverse;
-        gap: 3rem;
-    }
-
-    .skills,
-    .skills-info {
-        width: 100%;
-    }
-
     .skills-container h5 {
         font-size: 1.3rem;
         margin-bottom: 2rem;
@@ -86,5 +76,21 @@
 @media (max-width: 600px) {
     .skills-container {
         padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .skills,
+    .skills-info {
+        width: 100%;
+    }
+    
+    .skills-content {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+    
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

@@ -10,6 +10,7 @@ export const SKILLS = [
             { skill: "JavaScript", iconUrl: "./assets/images/icons/frontend/javascript.svg" },
             { skill: "React", iconUrl: "./assets/images/icons/frontend/react.svg" },
             { skill: "jQuery", iconUrl: "./assets/images/icons/frontend/jquery.svg" },
+            { skill: "Responsive Design", iconUrl: "./assets/images/icons/tools/responsive.svg" },
         ],
     },
     {
@@ -30,7 +31,6 @@ export const SKILLS = [
             { skill: "NPM", iconUrl: "./assets/images/icons/tools/npm.svg" },
             { skill: "WordPress", iconUrl: "./assets/images/icons/tools/wordpress.svg" },
             { skill: "Visual Studio Code", iconUrl: "./assets/images/icons/tools/vscode.svg" },
-            { skill: "Responsive Design", iconUrl: "./assets/images/icons/tools/responsive.svg" },
             { skill: "Google Workspace", iconUrl: "./assets/images/icons/tools/workspace.svg" },
             { skill: "Figma", iconUrl: "./assets/images/icons/tools/figma.svg" },
             { skill: "Office", iconUrl: "./assets/images/icons/tools/office.svg" },
