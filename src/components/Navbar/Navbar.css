@@ -49,7 +49,7 @@
 
 .menu-item {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--primary-font-color);
     position: relative;
@@ -76,7 +76,7 @@
 }
 
 .contact-btn {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     display: flex;
     align-items: center;
