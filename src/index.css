@@ -11,6 +11,10 @@
   --title-font: "Lexend", sans-serif;
   --body-font: "Poppins", sans-serif;
   --body-font-color: #000000;
+
+  /* Borders */
+  --border-radius: 4px;
+  --border: 1.5px solid #6751b9;
 }
 
 *, *::before, *::after {
@@ -27,4 +31,48 @@ body {
 
 .logo, h1, h2, h3, h4, h5, h6, .contact-btn {
   font-family: var(--title-font);
+}
+
+.logo {
+
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 34px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 0.75rem;
+  font-weight: 500px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  font-weight: 500px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  font-size: 1rem;
+  /* 20px for Tablet +, 16px for mobile */
+  color: #FFFFFF;
 }

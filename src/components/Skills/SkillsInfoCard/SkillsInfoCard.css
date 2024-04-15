@@ -1,20 +1,15 @@
 .skills-info-card {
     min-height: 40rem;
-    border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
+    border-radius: var(--border-radius);
+    border: var(--border);
     background: rgba(22,17,47,0.398);
     backdrop-filter: blur(1rem);
 }
 
-.skills-info-card h6 {
+.skills-info-card h3 {
     font-size: 1.2rem;
-    font-weight: 500;
     padding: 0.8rem 2rem;
-    background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
-    background-clip: text;
-    --webkit-background-clip: text;
-    --webkit-text-fill-color: transparent;
-    border-bottom: 1.5px solid #6751b9;
+    border-bottom: var(--border);
 }
 
 .skills-info-content {
@@ -32,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    border-radius: 0.5rem;
+    border-radius: var(--border-radius);
     border: 1.5px solid #3d3072;
     background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     width: 10rem;
