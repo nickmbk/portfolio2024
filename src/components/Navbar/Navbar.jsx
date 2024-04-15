@@ -16,25 +16,25 @@ const Navbar = () => {
             <nav className="nav-wrapper">
                 <div className="nav-content">
                     <div className="logo">
-                        <span>nick m</span>issel<span>b</span>roo<span>k</span>
+                        Nick Misselbrook
                     </div>
 
                     <ul>
                         <li>
-                            <a className="menu-item">home</a>
+                            <a className="menu-item">Home</a>
                         </li>
                         <li>
-                            <a className="menu-item">skills</a>
+                            <a className="menu-item">Skills</a>
                         </li>
                         <li>
-                            <a className="menu-item">work experience</a>
+                            <a className="menu-item">Projects</a>
                         </li>
                         <li>
-                            <a className="menu-item">contact me</a>
+                            <a className="menu-item">Contact Me</a>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>
-                            hire me
+                            My CV <span class="material-symbols-outlined">download</span>
                         </button>
                     </ul>
 

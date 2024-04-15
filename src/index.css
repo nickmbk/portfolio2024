@@ -43,9 +43,7 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 6rem;
-  margin-bottom: 2rem;
-  text-align: center;
+  margin-block: 10rem 4rem;
   padding: 1rem;
 }
 
@@ -75,4 +73,5 @@ a:link, a:visited, a:hover, a:active {
   font-size: 1rem;
   /* 20px for Tablet +, 16px for mobile */
   color: #FFFFFF;
+  text-decoration: none;
 }
