@@ -31,9 +31,9 @@ const Navbar = () => {
                         <li>
                             <Link to="/#contactme" className="menu-item" onClick={() => setOpenMenu(false)}>Contact Me</Link>
                         </li>
-                        <button className="contact-btn" onClick={() => {}}>
+                        <a className="contact-btn" href="./assets/documents/nick-misselbrook-cv.pdf">
                             My CV <span className="material-symbols-outlined">download</span>
-                        </button>
+                        </a>
                     </ul>
                     <button className="menu-btn" onClick={toggleMenu}>
                         <span className={"material-symbols-outlined"} style={{ fontSize: "1.8rem" }}>

@@ -25,9 +25,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                         <li>
                             <Link to="/#contactme" className="menu-item" onClick={toggleMenu}>Contact Me</Link>
                         </li>
-                        <button className="contact-btn" onClick={() => {}}>
+                        <a className="contact-btn" href="./assets/documents/nick-misselbrook-cv.pdf">
                             My CV <span className="material-symbols-outlined">download</span>
-                        </button>
+                        </a>
                     </ul>
                 </div>
             </div>
