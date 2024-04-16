@@ -1,10 +1,12 @@
 import { React } from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import './MobileNav.css';
+
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
     return (
         <>
-            <div className={`mobile-menu ${isOpen ? "active": ""}`} onClick={toggleMenu}>
+            <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
                 <div className="mobile-menu-container">
                     <div className="logo">
                         Nick Misselbrook
@@ -12,26 +14,25 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 
                     <ul>
                         <li>
-                            <a className="menu-item">Home</a>
+                            <Link to="/#home" className="menu-item" onClick={toggleMenu}>Home</Link>
                         </li>
                         <li>
-                            <a className="menu-item">Skills</a>
+                            <Link to="/#skills" className="menu-item" onClick={toggleMenu}>Skills</Link>
                         </li>
                         <li>
-                            <a className="menu-item">Projects</a>
+                            <Link to="/#projects" className="menu-item" onClick={toggleMenu}>Projects</Link>
                         </li>
                         <li>
-                            <a className="menu-item">Contact Me</a>
+                            <Link to="/#contactme" className="menu-item" onClick={toggleMenu}>Contact Me</Link>
                         </li>
-
-                        <button className="contact-btn" onClick={() => {}}>
-                            My CV <span class="material-symbols-outlined">download</span>
-                        </button>
+                        <a className="contact-btn" href="./assets/documents/nick-misselbrook-cv.pdf">
+                            My CV <span className="material-symbols-outlined">download</span>
+                        </a>
                     </ul>
                 </div>
             </div>
         </>
-    )
+    );
 };
 
 export default MobileNav;
