@@ -28,7 +28,6 @@ html {
 }
 
 body {
-  scroll-behavior: smooth;
   color: var(--secondary-font-color);
   background-color: var(--secondary-color);
 }
@@ -47,8 +46,8 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-block: 10rem 4rem;
-  padding: 1rem;
+  padding-block: 1rem;
+  margin-bottom: 4rem;
 }
 
 h3 {
@@ -78,4 +77,10 @@ a:link, a:visited, a:hover, a:active {
   /* 20px for Tablet +, 16px for mobile */
   color: #FFFFFF;
   text-decoration: none;
+}
+
+section {
+  padding-top: 80px;
+  margin-top: -80px;
+  margin-bottom: 4rem;
 }

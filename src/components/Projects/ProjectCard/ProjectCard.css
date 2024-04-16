@@ -129,7 +129,7 @@ li.technology p {
 }
 
 .project-description {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .project-screenshot {
@@ -149,6 +149,19 @@ li.technology p {
         flex-direction: column-reverse;
         align-items: flex-start;
         justify-content: center;
+    }
+
+    .project-title {
+        flex-direction: column;
+        justify-content: center;;
+        align-items: flex-start;
+    }
+
+    .links-container {
+        flex-direction: row;
+        align-items:flex-start;
+        justify-content: center;
+        gap: 2rem;
     }
 }
 

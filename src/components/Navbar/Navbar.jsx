@@ -1,6 +1,7 @@
-import {React, useState} from "react";
+import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from './MobileNav/MobileNav';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -12,41 +13,37 @@ const Navbar = () => {
     return (
         <>
             <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-
             <nav className="nav-wrapper">
                 <div className="nav-content">
                     <div className="logo">
                         Nick Misselbrook
                     </div>
-
                     <ul>
                         <li>
-                            <a className="menu-item">Home</a>
+                            <Link to="/#home" className="menu-item" onClick={() => setOpenMenu(false)}>Home</Link>
                         </li>
                         <li>
-                            <a className="menu-item">Skills</a>
+                            <Link to="/#skills" className="menu-item" onClick={() => setOpenMenu(false)}>Skills</Link>
                         </li>
                         <li>
-                            <a className="menu-item">Projects</a>
+                            <Link to="/#projects" className="menu-item" onClick={() => setOpenMenu(false)}>Projects</Link>
                         </li>
                         <li>
-                            <a className="menu-item">Contact Me</a>
+                            <Link to="/#contactme" className="menu-item" onClick={() => setOpenMenu(false)}>Contact Me</Link>
                         </li>
-
                         <button className="contact-btn" onClick={() => {}}>
-                            My CV <span class="material-symbols-outlined">download</span>
+                            My CV <span className="material-symbols-outlined">download</span>
                         </button>
                     </ul>
-
-                    <button class="menu-btn" onClick={toggleMenu}>
-                        <span class={"material-symbols-outlined"} style={{ fontSize: "1.8rem" }}>
+                    <button className="menu-btn" onClick={toggleMenu}>
+                        <span className={"material-symbols-outlined"} style={{ fontSize: "1.8rem" }}>
                             {openMenu ? "close" : "menu"}
                         </span>
                     </button>
                 </div>
             </nav>
         </>
-    )
+    );
 };
 
 export default Navbar;
