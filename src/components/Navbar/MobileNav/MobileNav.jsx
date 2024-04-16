@@ -7,25 +7,25 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <div className={`mobile-menu ${isOpen ? "active": ""}`} onClick={toggleMenu}>
                 <div className="mobile-menu-container">
                     <div className="logo">
-                        nick misselbrook
+                        Nick Misselbrook
                     </div>
 
                     <ul>
                         <li>
-                            <a className="menu-item"></a>
+                            <a className="menu-item">Home</a>
                         </li>
                         <li>
                             <a className="menu-item">Skills</a>
                         </li>
                         <li>
-                            <a className="menu-item">Work Experience</a>
+                            <a className="menu-item">Projects</a>
                         </li>
                         <li>
                             <a className="menu-item">Contact Me</a>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>
-                            Hire Me
+                            My CV <span class="material-symbols-outlined">download</span>
                         </button>
                     </ul>
                 </div>

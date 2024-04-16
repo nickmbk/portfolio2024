@@ -19,7 +19,7 @@
 .logo {
     width: fit-content;
     height: auto;
-    color: rgba(255, 255, 255, 0.7);
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 2rem;
 }
@@ -49,7 +49,7 @@
 
 .menu-item {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--primary-font-color);
     position: relative;
@@ -76,7 +76,7 @@
 }
 
 .contact-btn {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     display: flex;
     align-items: center;
