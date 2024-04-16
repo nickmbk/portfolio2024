@@ -1,5 +1,5 @@
 .nav-wrapper {
-    background: var(--secondary-color);
+    background: var(--background-color);
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
@@ -60,7 +60,7 @@
     content: " ";
     width: 2rem;
     height: 0.2rem;
-    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    background: linear-gradient(90deg, var(--background-color) 0%, var(--cta-color) 100%);
     border-radius: var(--border-radius);
     position: absolute;
     bottom: -0.6rem;
@@ -82,19 +82,19 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary-color);
+    background: var(--cta-color);
     padding: 0.6rem 2rem;
     border: none;
-    outline: 1.5px solid transparent;
+    border: var(--border-transparent);
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .contact-btn:hover {
-    color: var(--secondary-color);
+    color: var(--font-cta-hover-color);
     background: #FFFFFF;
-    outline: 1.5px solid var(--secondary-color); 
+    border: var(--border-cta); 
     transition: all 0.3s ease;
 }
 
@@ -107,8 +107,8 @@
     justify-content: center;
     border: none;
     border-radius: var(--border-radius);
-    color: var(--primary-color);
-    background: var(--secondary-color);
+    color: var(--cta-color);
+    background: var(--background-color);
     line-height: 0;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -116,9 +116,9 @@
 }
 
 .menu-btn:hover {
-    color: var(--secondary-color);
-    background: var(--primary-color);
-    border: 1px solid var(--secondary-color);
+    color: var(--background-color);
+    background: var(--cta-color);
+    border: 1px solid var(--background-color);
 }
 
 @media (max-width: 769px) {

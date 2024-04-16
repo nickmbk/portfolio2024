@@ -2,19 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 :root {
-  --primary-color: #2175D0;
-  --secondary-color: #010e29;
-  --accent-color: #F2C94C;
-  --secondary-color-faded: #010e2922;
-  --primary-font-color: #ffffff;
-  --secondary-font-color: #FFFFFF;
+  /* Colors */
+  --background-color: #010e29;
+  --background-color-faded: #010e2955;
+  --cta-color: #2175D0;
+  --icon-background: linear-gradient(180deg, #87ceeb 0%, #191970 100%);
+  --active-skill-background: linear-gradient(180deg, var(--cta-color) 0%, var(--background-color) 100%);  
+
+  /* Fonts */
   --title-font: "Lexend", sans-serif;
   --body-font: "Poppins", sans-serif;
-  --body-font-color: #000000;
+  --font-color: #FFFFFF;
+  --font-cta-hover-color: var(--background-color);
 
   /* Borders */
+  --border-color: #6F00FF;
   --border-radius: 4px;
-  --border: 1.5px solid #6751b9;
+  --border: 1.5px solid var(--border-color);
+  --border-cta: 1.5px solid var(--cta-color);
+  --border-transparent: 1.5px solid transparent;
 }
 
 *, *::before, *::after {
@@ -28,8 +34,8 @@ html {
 }
 
 body {
-  color: var(--secondary-font-color);
-  background-color: var(--secondary-color);
+  color: var(--font-color);
+  background-color: var(--background-color);
 }
 
 .logo, h1, h2, h3, h4, h5, h6, .contact-btn {

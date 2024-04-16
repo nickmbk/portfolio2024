@@ -2,13 +2,13 @@
     width: 100vw;
     height: 100vh;
     display: none;
-    background-color: var(--secondary-color-faded);
+    background-color: var(--background-color-faded);
     position: fixed;
     left: 0;
     top: 0;
     z-index: 999;
     opacity: 0;
-    box-shadow: 0px 29px 88px var(--secondary-color-faded);
+    box-shadow: 0px 29px 88px var(--background-color-faded);
     transition: all 0.3s ease;
     transform: translateX(-100vw);
 }
@@ -16,7 +16,7 @@
 .mobile-menu-container {
     width: 60vw;
     height: 100vh;
-    background-color: var(--primary-color);
+    background-color: var(--cta-color);
     padding: 2rem;
 }
 

@@ -28,8 +28,8 @@
     align-items: center;
     justify-content: flex-start;
     border-radius: var(--border-radius);
-    border: 1.5px solid #3d3072;
-    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border: var(--border);
+    background: var(--icon-background);
     width: 10rem;
     aspect-ratio: 1/1;
     gap: 0.5rem;

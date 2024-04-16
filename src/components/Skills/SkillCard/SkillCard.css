@@ -1,9 +1,9 @@
 .skills-card {
     border-radius: var(--border-radius);
-    border: 1.5px solid var(--primary-color);
+    border: var(--border);
     padding: 2.5rem;
     text-align: center;
-    background: var(--secondary-color-faded);
+    background: var(--background-color-faded);
     backdrop-filter: blur(1rem);
     position: relative;
     cursor: pointer;
@@ -12,7 +12,7 @@
 
 .skills-card:hover,
 .skills-card.active {
-    background: linear-gradient(180deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: linear-gradient(180deg, var(--cta-color) 0%, var(--background-color) 100%);
 }
 
 .skills-card span {

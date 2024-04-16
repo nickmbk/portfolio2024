@@ -3,6 +3,29 @@
     position: relative;
 }
 
+.projects-container::after,
+.projects-container::before {
+    content: " ";
+    width: 40rem;
+    height: 40rem;
+    border-radius: 28.125rem;
+    background: #191970;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.projects-container::after {
+    top: 0rem;
+    left: -8rem;
+}
+
+.projects-container::before {
+    background: #0F52BA;
+    bottom: 0rem;
+    right: 0rem;
+}
+
 .arrow-left,
 .arrow-right {
     width: 2.2rem;
@@ -10,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #6751b9;
+    color: var(--border-color);
     border-radius: var(--border-radius);
     border: var(--border);
     background: #130f2a;

@@ -29,17 +29,18 @@ form button {
     font-size: 1rem;
     font-weight: 500;
     color: #FFFFFF;
-    border: 1.5px solid #a892fe;
+    border: var(--border-transparent);
     border-radius: var(--border-radius);
-    background: linear-gradient(90deg, #a892fe 0%, #8604e8 100%);
+    background: var(--cta-color);
     padding: 0.7rem;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 form button:hover {
-    color: #a892fe;
-    background: transparent;
+    color: var(--font-cta-hover-color);
+    background: #FFFFFF;
+    border: var(--border);
 }
 
 @media(max-width: 450px) {
