@@ -41,7 +41,7 @@ const ProjectCard = ({ details }) => {
                         <div className="project-description">
                             <h4>Description:</h4>
                             <div className="description-paragraph">
-                                <p>{details.description}</p>
+                                <p style={{ whiteSpace: "pre-wrap" }}>{details.description}</p>
                             </div>
                         </div>
                     </div>

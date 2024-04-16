@@ -134,6 +134,7 @@ li.technology p {
 
 .project-screenshot {
     flex-basis: 50%;
+    align-self: center;
 }
 
 .project-screenshot img {
